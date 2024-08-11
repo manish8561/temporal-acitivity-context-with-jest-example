@@ -10,7 +10,7 @@ More Activity samples are [listed here](https://github.com/temporalio/samples-ty
 
 ### Testing
 
-- Mocha: Run the tests in [`src/mocha/`](./src/mocha/) with:
+- Mocha: Run the tests in the [`src/mocha/`](./src/mocha/) with:
   - `npm test`: run once
   - `npm run test.watch`: run when files change
   - `npm run test.coverage`: run with coverage report
@@ -20,13 +20,13 @@ More Activity samples are [listed here](https://github.com/temporalio/samples-ty
 
 ### Running this sample
 
-1. `temporal server start-dev` to start [Temporal Server](https://github.com/temporalio/cli/#installation).
+1. `temporal server start-dev` to start the [Temporal Server](https://github.com/temporalio/cli/#installation).
 2. `npm install` to install dependencies.
 3. `npm run start.watch` to start the Worker.
 4. In another shell, `npm run workflow` to run the Workflow.
 
-The Workflow should make an HTTP request to [httpbin.org](https://httpbin.org/) and then return:
+The Workflow should make an HTTP request to the [httpbin.org](https://httpbin.org/) and then return:
 
 ```
-The answer is 42
+The answer is 42.\
 ```
