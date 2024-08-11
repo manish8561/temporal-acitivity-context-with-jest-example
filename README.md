@@ -28,5 +28,5 @@ More Activity samples are [listed here](https://github.com/temporalio/samples-ty
 The Workflow should make an HTTP request to the [httpbin.org](https://httpbin.org/) and then return:
 
 ```
-The answer is 42.\
+The answer is 42
 ```
